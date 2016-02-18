@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39B4ECAE6BA90681949ABA91CD2D3D2D3E53C1B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DECACE5D947D72F39CF7ED5C34AE9F2267F41D83" : 0,
+    "39B4ECAE6BA90681949ABA91CD2D3D2D3E53C1B2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1ED86691-F55A-42F7-9D7E-708C7ED24F7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DECACE5D947D72F39CF7ED5C34AE9F2267F41D83" : "LoginWithClimate\/",
+    "39B4ECAE6BA90681949ABA91CD2D3D2D3E53C1B2" : "iCanHazThumbnail\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iCanHazThumbnail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iCanHazThumbnail.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.ci.climatedna.net:7999\/~aditya\/icanhazthumbnails.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39B4ECAE6BA90681949ABA91CD2D3D2D3E53C1B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:acrao\/LoginWithClimate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DECACE5D947D72F39CF7ED5C34AE9F2267F41D83"
+    }
+  ]
+}
