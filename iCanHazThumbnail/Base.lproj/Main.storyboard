@@ -33,18 +33,7 @@
                     <view key="view" contentMode="scaleToFill" id="gCB-RU-FRA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oKz-No-e9U">
-                                <rect key="frame" x="20" y="20" width="560" height="580"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="oKz-No-e9U" firstAttribute="top" secondItem="06q-qo-5fe" secondAttribute="bottom" id="BGp-sc-Sjb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oKz-No-e9U" secondAttribute="trailing" id="dgF-d5-1jT"/>
-                            <constraint firstItem="oKz-No-e9U" firstAttribute="leading" secondItem="gCB-RU-FRA" secondAttribute="leadingMargin" id="kw2-TN-2Va"/>
-                            <constraint firstItem="a1A-9o-nxw" firstAttribute="top" secondItem="oKz-No-e9U" secondAttribute="bottom" id="nFX-xC-khI"/>
-                        </constraints>
                     </view>
                     <connections>
                         <segue destination="brP-gN-qhg" kind="show" id="8Hi-T0-5wf"/>

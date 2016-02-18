@@ -17,6 +17,10 @@ class ViewController : UINavigationController, LoginWithClimateDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         let loginViewController = LoginWithClimateButton(clientId: "CLIENT ID GOES HERE", clientSecret: "CLIENT SECRET GOES HERE")
         loginViewController.delegate = self
+      
+        if let image = UIImage(named: "2.jpg") {
+            view.backgroundColor = UIColor(patternImage: image)
+        }
         
         view.addSubview(loginViewController.view)
         
