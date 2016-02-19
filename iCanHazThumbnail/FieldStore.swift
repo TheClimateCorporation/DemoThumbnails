@@ -41,8 +41,8 @@ public class FieldStore {
         task.resume()
     }
 
-    public func fetchThumbnailForField(id: Int, height: CGFloat? = nil, width: CGFloat? = nil, onComplete : () -> Void) {
-        let request = NSMutableURLRequest(URL: ClimateAPI.thumbnailUrl(id, userId: self.session!.userInfo.id, height: height, width: width))
+    public func fetchThumbnailForField(id: Int, thumbnailOpts: [ThumbnailOpts: String] = [ThumbnailOpts: String](), onComplete : () -> Void) {
+        let request = NSMutableURLRequest(URL: ClimateAPI.thumbnailUrl(id, userId: self.session!.userInfo.id, thumbnailOptions: thumbnailOpts))
         request.setValue("Bearer \(self.session!.accessToken)",
             forHTTPHeaderField: "Authorization")
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
