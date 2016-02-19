@@ -22,14 +22,14 @@ public class DetailViewController: UIViewController {
     @IBAction func handleSwipe(recognizer: UISwipeGestureRecognizer) {
         
         switch recognizer.direction {
-        case UISwipeGestureRecognizerDirection.Right:
+        case UISwipeGestureRecognizerDirection.Left:
             if (self.startIndex! < self.fieldStore!.numFields() - 1) {
                 self.startIndex! += 1
                 self.loadFieldDetail(self.startIndex!)
             }
             
             
-        case UISwipeGestureRecognizerDirection.Left:
+        case UISwipeGestureRecognizerDirection.Right:
             if (self.startIndex! > 0) {
                 self.startIndex! -= 1
                 self.loadFieldDetail(self.startIndex!)
