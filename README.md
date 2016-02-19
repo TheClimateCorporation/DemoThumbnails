@@ -13,5 +13,5 @@ This is a demo application showing how to:
 3. Add your client id and client secret in [ViewController.swift](https://github.com/TheClimateCorporation/DemoThumbnails/blob/master/iCanHazThumbnail/ViewController.swift#L18).
 4. Run it!
 
-![](screenshot1.png)
-![](screenshot2.png)
+<img src="https://github.com/TheClimateCorporation/DemoThumbnails/blob/master/screenshot1.png" width="380" height="560">
+<img src="https://github.com/TheClimateCorporation/DemoThumbnails/blob/master/screenshot2.png" width="380" height="560">
