@@ -9,10 +9,16 @@
 import Foundation
 import LoginWithClimate
 
-public enum ThumbnailOpts {
-    case fill
-    case height
-    case width
+public enum ThumbnailOpts: String{
+    case Fill = "fill" // Color should be an html color name or a hex color
+    case Height = "height" // Image height in pixels
+    case Width = "width" // Image width in pixels
+    case Stroke = "stroke" // Color should be an html color name or a hex color
+    case StrokeWidth = "stroke-width" // Stroke width for field outline
+    case BackgroundStroke = "background-stroke" // Color should be an html color name or a hex color
+    case BackgroundStrokeWidth = "background-stroke-width" // Color should be an html color name or a hex color
+    case BackgroundFill = "background-fill" // Color should be an html color name or a hex color
+    case Margin = "margin" // Margin in pixels
 }
 
 public class ClimateAPI {
@@ -32,7 +38,7 @@ public class ClimateAPI {
         components!.queryItems?.append(NSURLQueryItem(name: "format", value: "png"))
         components!.queryItems?.append(NSURLQueryItem(name: "user-id", value: String(userId)))
         thumbnailOptions.forEach ({ (optionName: ThumbnailOpts, optionValue: String) -> Void  in
-            components!.queryItems?.append(NSURLQueryItem(name: String(optionName), value: optionValue))
+            components!.queryItems?.append(NSURLQueryItem(name: optionName.rawValue, value: optionValue))
         })
         
         return components!.URL!

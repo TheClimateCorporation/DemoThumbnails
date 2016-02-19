@@ -62,9 +62,9 @@ public class DetailViewController: UIViewController {
     }
     
     func setThumbnail() -> Void {
-        let thumbnailOpts = [ThumbnailOpts.height: String(Int(self.imageView.bounds.height)),
-                             ThumbnailOpts.width: String(Int(self.imageView.bounds.width)),
-                             ThumbnailOpts.fill: self.randomThumbnailFill()]
+        let thumbnailOpts = [ThumbnailOpts.Height: String(Int(self.imageView.bounds.height)),
+                             ThumbnailOpts.Width: String(Int(self.imageView.bounds.width)),
+                             ThumbnailOpts.Fill: self.randomThumbnailFill()]
         self.fieldStore?.fetchThumbnailForField(self.currField!.id, thumbnailOpts: thumbnailOpts,
             onComplete: {() -> Void in
             dispatch_async(dispatch_get_main_queue(), {
